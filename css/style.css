@@ -609,3 +609,106 @@
     }
 
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      }
+/* =========================
+   FOOTER
+========================= */
+
+.footer{
+    background:#0F0F0F;
+    color:#ffffff;
+    padding:80px 80px 30px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.footer-brand{
+    flex:1;
+    min-width:260px;
+}
+
+.footer-brand img{
+    width:140px;
+    margin-bottom:20px;
+}
+
+.footer-brand p{
+    color:#cccccc;
+    line-height:1.9;
+    max-width:350px;
+    font-size:15px;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    min-width:220px;
+}
+
+.footer-links h3{
+    font-family:'Playfair Display', serif;
+    font-size:24px;
+    margin-bottom:12px;
+    color:#ffffff;
+}
+
+.footer-links a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#cccccc;
+    text-decoration:none;
+    transition:0.3s ease;
+    font-size:15px;
+}
+
+.footer-links a i{
+    color:#C6A96B;
+    font-size:18px;
+    min-width:20px;
+}
+
+.footer-links a:hover{
+    color:#C6A96B;
+    transform:translateX(4px);
+}
+
+.footer-bottom{
+    margin-top:60px;
+    padding-top:25px;
+    border-top:1px solid rgba(255,255,255,0.08);
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#888888;
+    font-size:14px;
+    letter-spacing:0.5px;
+}
+
+
+/* =========================
+   FOOTER RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+    .footer{
+        padding:60px 20px 30px;
+    }
+
+    .footer-container{
+        flex-direction:column;
+        gap:40px;
+    }
+
+    .footer-links{
+        min-width:100%;
+    }
+
+   }
