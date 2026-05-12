@@ -534,4 +534,78 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                flex-direction:column;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   }
+                             /* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:70px;
+    padding:100px 80px;
+    background:#f5f1eb;
+}
+
+.about-image{
+    flex:1;
+}
+
+.about-image img{
+    border-radius:14px;
+    box-shadow:0 20px 50px rgba(0,0,0,0.12);
+}
+
+.about-content{
+    flex:1;
+}
+
+.section-tag{
+    color:#C6A96B;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.about-content h2{
+    font-family:'Playfair Display', serif;
+    font-size:52px;
+    line-height:1.2;
+    margin:20px 0;
+    color:#0F0F0F;
+}
+
+.about-content p{
+    font-size:17px;
+    line-height:1.9;
+    margin-bottom:25px;
+    color:#444;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .about-section{
+        flex-direction:column;
+        padding:80px 40px;
+    }
+
+    .about-content h2{
+        font-size:42px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .about-section{
+        padding:70px 20px;
+    }
+
+    .about-content h2{
+        font-size:34px;
+    }
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      }
